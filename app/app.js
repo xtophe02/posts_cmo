@@ -15,10 +15,10 @@ app.prepare().then(() => {
   // server.get('/lol', (req, res)=> {
   //   res.send('lol') 
   // })
-  // server.get('/auth/:req', (req, res)=> {
-  //   console.log(req.params)
-  //   app.render(req, res, "/auth", {req: req.params.req}) 
-  // })
+  server.get('/auth/:req', (req, res)=> {
+    console.log(req.params)
+    app.render(req, res, "/auth", {req: req.params.req}) 
+  })
   server.get('*', (req, res) => {
     return handle(req,res)
   })

@@ -66,7 +66,8 @@ var Navbar = function Navbar() {
   }, "Developers", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Icon__WEBPACK_IMPORTED_MODULE_6__["default"], {
     className: classes.rightIcon
   }, "send"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_Link__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    href: "/register",
+    href: "/auth?req=register",
+    as: "/auth/register",
     color: "inherit",
     underline: "none"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -75,7 +76,8 @@ var Navbar = function Navbar() {
   }, "Register", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Icon__WEBPACK_IMPORTED_MODULE_6__["default"], {
     className: classes.rightIcon
   }, "send"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_Link__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    href: "/login",
+    href: "/auth?req=login",
+    as: "/auth/login",
     color: "inherit",
     underline: "none"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -5512,7 +5514,7 @@ var defaultTheme = Object(_createMuiTheme__WEBPACK_IMPORTED_MODULE_0__["default"
 /*!************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/styles/index.js ***!
   \************************************************************/
-/*! exports provided: hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, createMuiTheme, createStyles, makeStyles, MuiThemeProvider, responsiveFontSizes, styled, easing, duration, formatMs, isString, isNumber, useTheme, withStyles, withTheme */
+/*! exports provided: createMuiTheme, createStyles, makeStyles, MuiThemeProvider, responsiveFontSizes, styled, useTheme, withStyles, withTheme, hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, easing, duration, formatMs, isString, isNumber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

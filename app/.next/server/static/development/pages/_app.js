@@ -166,7 +166,8 @@ var Navbar = function Navbar() {
   }, "Developers", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Icon__WEBPACK_IMPORTED_MODULE_6___default.a, {
     className: classes.rightIcon
   }, "send"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_Link__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    href: "/register",
+    href: "/auth?req=register",
+    as: "/auth/register",
     color: "inherit",
     underline: "none"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -175,7 +176,8 @@ var Navbar = function Navbar() {
   }, "Register", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Icon__WEBPACK_IMPORTED_MODULE_6___default.a, {
     className: classes.rightIcon
   }, "send"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_Link__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    href: "/login",
+    href: "/auth?req=login",
+    as: "/auth/login",
     color: "inherit",
     underline: "none"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_5___default.a, {

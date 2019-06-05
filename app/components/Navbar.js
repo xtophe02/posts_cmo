@@ -34,13 +34,13 @@ const Navbar = () => {
               <Icon className={classes.rightIcon}>send</Icon>
             </Button>
           </Link>
-          <Link href="/register" color="inherit" underline="none">
+          <Link href="/auth?req=register" as="/auth/register" color="inherit" underline="none">
             <Button color="inherit" className={classes.button}>
               Register
               <Icon className={classes.rightIcon}>send</Icon>
             </Button>
           </Link>
-          <Link href="/login" color="inherit" underline="none">
+          <Link href="/auth?req=login"  as="/auth/login" color="inherit" underline="none">
             <Button color="inherit" className={classes.button}>
               Login
               <Icon className={classes.rightIcon}>send</Icon>
